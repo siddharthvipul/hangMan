@@ -1,3 +1,4 @@
+
 import random #importing random to guess random movie
 album = {
 	1: 'lord of the rings', 
@@ -9,7 +10,7 @@ album = {
 	}
 number = random.randint(1,6) #taking any random movie form dictionary
 movie = album[number]        #storing it in a variable
-allowed_attempts = 5
+allowed_attempts = 7
 guessed_char = ' '			 #making a stack of guesses taki compare kar sake
 
 while allowed_attempts > 0: 
@@ -26,10 +27,9 @@ while allowed_attempts > 0:
 		break
 	guess = input('Take your guess: ')
 	guessed_char += guess
-	if guess not in movie:
+	if (guess not in movie) and (allowed_attempts > 0):
 	 	allowed_attempts = allowed_attempts - 1
 	 	print ('Attempts left: '+ str(allowed_attempts))
-	 	if allowed_attempts == 0:
-	 		print ('Game over')
-
-
+	if allowed_attempts == 0:
+	 	print ('Game over')
+	 	break
