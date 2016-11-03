@@ -1,2 +1,2 @@
 # hangMan
-a basic console hangman game
+a basic console hangman game.
