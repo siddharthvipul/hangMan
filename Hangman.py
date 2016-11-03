@@ -1,6 +1,15 @@
 import sys
 import os
-movie = sys.argv[1]
+noOfWords = len(sys.argv)
+if noOfWords == 1:
+	print ("\tPlease enter the movie name")
+	sys.exit()
+else:
+	movie1 = sys.argv
+	movie1.remove('Hangman.py')
+	movie = " ".join(movie1)
+print (movie1)
+print (movie)
 os.system("clear")
 allowed_attempts = 7
 guessed_char = ' '
