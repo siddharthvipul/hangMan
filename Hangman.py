@@ -1,18 +1,9 @@
-
-import random #importing random to guess random movie
-album = {
-	1: 'lord of the rings', 
-	2: 'harry potter', 
-	3: 'one piece', 
-	4: 'dragon ball z', 
-	5: 'attack on titans', 
-	6: 'full metal alchemist'
-	}
-number = random.randint(1,6) #taking any random movie form dictionary
-movie = album[number]        #storing it in a variable
+import sys
+import os
+movie = sys.argv[1]
+os.system("clear")
 allowed_attempts = 7
-guessed_char = ' '			 #making a stack of guesses taki compare kar sake
-
+guessed_char = ' '
 while allowed_attempts > 0: 
 	mistake = 0
 
@@ -20,10 +11,10 @@ while allowed_attempts > 0:
 		if letter in guessed_char:
 			print (letter)
 		else:
-			print ('\b'+ '_')    #\b is not woking,  fml
+			print ('\b'+ '_')
 			mistake = mistake + 1
 	if mistake == 0:
-		print ('Sabaash')
+		print ('Well Done')
 		break
 	guess = input('Take your guess: ')
 	guessed_char += guess
