@@ -1,0 +1,13 @@
+Script started on Friday 30 June 2017 12:43:06 PM IST
+]777;notify;Command completed;script >> 30jun.txt ]0;vsiddhar@localhost:~]7;file://localhost.localdomain/home/vsiddhar[36m[[m[34mvsiddhar@localhost[m [32m~[m[36m][m $ ls
+1.txt    [0m[38;5;33mDocuments[0m  [38;5;33mMusic[0m           [38;5;33mPublic[0m                                       [38;5;13mScreenshot_fedora25_2017-06-30_07:49:37.png[0m  [38;5;13mScreenshot_fedora25_2017-06-30_07:59:45.png[0m    [38;5;33mSemesterV[0m
+[38;5;33mAnsible[0m  [38;5;33mDownloads[0m  [38;5;33mpackaging-work[0m  [38;5;33mrpmbuild[0m                                     [38;5;13mScreenshot_fedora25_2017-06-30_07:52:04.png[0m  [38;5;13mScreenshot_fedora25-2_2017-06-30_07:30:33.png[0m  [38;5;33mTemplates[0m
+[38;5;33mDesktop[0m  [38;5;33mdump[0m       [38;5;33mPictures[0m        [38;5;13mScreenshot_fedora25_2017-06-29_12:45:14.png[0m  [38;5;13mScreenshot_fedora25_2017-06-30_07:55:37.png[0m  [38;5;13mScreenshot_fedora25-2_2017-06-30_08:15:12.png[0m  [38;5;33mVideos[0m
+]777;notify;Command completed;ls]0;vsiddhar@localhost:~]7;file://localhost.localdomain/home/vsiddhar[36m[[m[34mvsiddhar@localhost[m [32m~[m[36m][m $ clear
+[3J[H[2J]777;notify;Command completed;clear]0;vsiddhar@localhost:~]7;file://localhost.localdomain/home/vsiddhar[36m[[m[34mvsiddhar@localhost[m [32m~[m[36m][m $ ls
+1.txt    [0m[38;5;33mDocuments[0m  [38;5;33mMusic[0m           [38;5;33mPublic[0m                                       [38;5;13mScreenshot_fedora25_2017-06-30_07:49:37.png[0m  [38;5;13mScreenshot_fedora25_2017-06-30_07:59:45.png[0m    [38;5;33mSemesterV[0m
+[38;5;33mAnsible[0m  [38;5;33mDownloads[0m  [38;5;33mpackaging-work[0m  [38;5;33mrpmbuild[0m                                     [38;5;13mScreenshot_fedora25_2017-06-30_07:52:04.png[0m  [38;5;13mScreenshot_fedora25-2_2017-06-30_07:30:33.png[0m  [38;5;33mTemplates[0m
+[38;5;33mDesktop[0m  [38;5;33mdump[0m       [38;5;33mPictures[0m        [38;5;13mScreenshot_fedora25_2017-06-29_12:45:14.png[0m  [38;5;13mScreenshot_fedora25_2017-06-30_07:55:37.png[0m  [38;5;13mScreenshot_fedora25-2_2017-06-30_08:15:12.png[0m  [38;5;33mVideos[0m
+]777;notify;Command completed;ls]0;vsiddhar@localhost:~]7;file://localhost.localdomain/home/vsiddhar[36m[[m[34mvsiddhar@localhost[m [32m~[m[36m][m $ exit
+
+Script done on Friday 30 June 2017 12:43:16 PM IST
