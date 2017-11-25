@@ -9,7 +9,7 @@ else:
 	movie1.remove('Hangman.py')
 	movie = " ".join(movie1)
 
-print ("Hello")
+print ("Hi")
 print (movie1)
 print (movie)
 os.system("clear")
