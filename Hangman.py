@@ -8,6 +8,8 @@ else:
 	movie1 = sys.argv
 	movie1.remove('Hangman.py')
 	movie = " ".join(movie1)
+
+prunt ("Hi")
 print (movie1)
 print (movie)
 os.system("clear")
