@@ -8,12 +8,14 @@ else:
 	movie1 = sys.argv
 	movie1.remove('Hangman.py')
 	movie = " ".join(movie1)
+
+print ("Hello")
 print (movie1)
 print (movie)
 os.system("clear")
 allowed_attempts = 7
 guessed_char = ' '
-while allowed_attempts > 0: 
+while allowed_attempts > 0:
 	mistake = 0
 
 	for letter in movie:
